@@ -10,11 +10,11 @@ int main() {
 	cin >> input;
 
 	if(input == password) {
-	cout << "'" << "access declared" << "'" << endl;
+	cout << "'" << "Access declared" << "'" << endl;
 	}
 
 	if(input != password) {
-	cout << "'" << "access denied" << "'" << endl;
+	cout << "'" << "Access denied" << "'" << endl;
 	}
 
 	return 0;
